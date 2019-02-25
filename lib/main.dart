@@ -10,7 +10,6 @@ class MyApp extends StatelessWidget {
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.dark.copyWith(statusBarIconBrightness: Brightness.dark));
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
       theme: ThemeData(primarySwatch: Colors.purple),
       home: MyHomePage(),
     );
@@ -28,19 +27,13 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // appBar: AppBar(
-      //   title: Text("widget.title"),
-      // ),
       body: Container(
-        // color: Colors.red,
         child: DrawableView(),
       ),
       floatingActionButton: new FloatingActionButton(
         child: Icon(Icons.delete),
         onPressed: () {
-          setState(() {
-            print(" aa ");
-          });
+          setState(() {});
         },
       ),
     );
