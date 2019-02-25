@@ -1,16 +1,17 @@
-# draw_it
+# Draw It
 
-A new Flutter project.
+Drawing app built with [Flutter](https://flutter.io/docs).
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+![](https://media.giphy.com/media/TgMxUMOy33HraQGhDC/giphy.gif)
 
-A few resources to get you started if this is your first Flutter project:
+## Contributing
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+1. Fork it (<https://github.com/psuzn/draw-it>)
+2. Create your feature branch (`git checkout -b feature/fooBar`)
+3. Commit your changes (`git commit -am 'Add some fooBar'`)
+4. Push to the branch (`git push origin feature/fooBar`)
+5. Create a new Pull Request
+## References
+ 
+[Flutter Documantation](https://flutter.io/docs)
